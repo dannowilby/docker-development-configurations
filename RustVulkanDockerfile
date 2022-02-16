@@ -1,0 +1,6 @@
+
+FROM rust
+
+RUN apt-get update
+RUN apt install -y vulkan-tools vulkan-utils vulkan-validationlayers libvulkan1 libvulkan-dev mesa-vulkan-drivers
+
